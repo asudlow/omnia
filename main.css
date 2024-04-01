@@ -276,4 +276,7 @@ b, strong {
     h2 {
         font-size:1.5rem;
     }
+    .xsNone {
+        display:none;
+    }
 }
