@@ -133,6 +133,16 @@ b, strong {
     padding-bottom:20px;
 }
 
+.footerPanel a {
+    color:#000;
+    text-decoration:none;
+}
+
+.footerPanel a:hover {
+    color:#666;
+    text-decoration:none;
+}
+
 .logoPanel {
     text-align:center;
     display:flex;
