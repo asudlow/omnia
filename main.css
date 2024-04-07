@@ -83,6 +83,7 @@ b, strong {
 .headerTitle h2 {
     color:#fff;
     font-size:2rem;
+    padding-top:30px;
 }
 
 .headerTitle h2 span {
