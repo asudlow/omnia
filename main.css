@@ -338,4 +338,8 @@ b, strong {
     .headerBanner {
     background-position:90% 50%; 
 }
+    .offssetImg img {
+    left:0px;
+} 
+    
 }
