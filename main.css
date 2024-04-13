@@ -325,4 +325,7 @@ b, strong {
     .headerTitle h3 {
     font-size: 1rem;
 }
+    .textBox {
+    padding:25px;
+}
 }
