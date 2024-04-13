@@ -117,7 +117,7 @@ b, strong {
 }
 
 .offssetImg img {
-    left:100px;
+    margin-left:100px;
 }
 
 .services {
