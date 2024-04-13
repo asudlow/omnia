@@ -105,6 +105,14 @@ b, strong {
     padding:50px;
 }
 
+.textBox h2 {
+    padding-bottom:30px;
+}
+
+.textBox h3 {
+    padding-bottom:30px;
+}
+
 .services {
     text-align:center;
 }
@@ -166,6 +174,14 @@ b, strong {
     width:100%;
 }
 
+.vertPad {
+    padding:15px 0px;
+}
+
+.horPad {
+    padding:0px 30px;
+}
+
 .padding30 {
     padding-top:30px;
     padding-bottom:30px;
@@ -206,11 +222,11 @@ b, strong {
 }
 
 .fade-in {
-    animation: fadeIn 5s;
-      -webkit-animation: fadeIn 5s;
-  -moz-animation: fadeIn 5s;
-  -o-animation: fadeIn 5s;
-  -ms-animation: fadeIn 5s;
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
 }
 
 @keyframes fadeIn {
@@ -302,4 +318,11 @@ b, strong {
     .xsNone {
         display:none;
     }
+
+    .headerTitle h2 {
+    font-size: 1.2rem;
+}
+    .headerTitle h3 {
+    font-size: 1rem;
+}
 }
