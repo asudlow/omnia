@@ -75,6 +75,9 @@ b, strong {
     text-align:center;
     display:flex;
     align-items: center;
+    background-size:cover; 
+    background-position:50% 50%; 
+    background-repeat:no-repeat;
 }
 
 .headerTitle h1 {
@@ -327,5 +330,8 @@ b, strong {
 }
     .textBox {
     padding:25px;
+}
+    .headerBanner {
+    background-position:90% 50%; 
 }
 }
