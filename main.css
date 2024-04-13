@@ -116,6 +116,10 @@ b, strong {
     padding-bottom:30px;
 }
 
+.offssetImg img {
+    left:100px;
+}
+
 .services {
     text-align:center;
 }
