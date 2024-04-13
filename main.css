@@ -116,7 +116,7 @@ b, strong {
     padding-bottom:20px;
 }
 
-.offssetImg img {
+.offsetImg img {
     margin-left:100px;
 }
 
@@ -338,8 +338,8 @@ b, strong {
     .headerBanner {
     background-position:90% 50%; 
 }
-    .offssetImg img {
-    left:0px;
+    .offsetImg img {
+    margin-left:0px;
 } 
     
 }
