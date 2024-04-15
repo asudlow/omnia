@@ -122,6 +122,8 @@ b, strong {
 
 .services {
     text-align:center;
+    display: flex;
+    align-items: baseline;
 }
 
 .serviceBox {
