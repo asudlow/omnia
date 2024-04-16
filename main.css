@@ -22,6 +22,10 @@ body {
     padding: 0em;
 }
 
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+   --bs-gutter-x: 5rem;  
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Prata", serif;
     color: #000;
