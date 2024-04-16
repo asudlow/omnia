@@ -103,6 +103,10 @@ b, strong {
     align-items: center;
 }
 
+.textWhite * {
+    color:#fff;
+}
+
 .textBox {
     background-color:#fff;
     padding:50px;
