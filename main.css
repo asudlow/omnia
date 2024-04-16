@@ -264,6 +264,11 @@ b, strong {
 }
 
 /*  navbar */
+
+.navbar {
+background-color: rgba(0, 0, 0, 0.3);
+}
+
 .navbar-collapse {
   position: absolute;
   top: 0;
