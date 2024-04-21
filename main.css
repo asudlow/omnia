@@ -329,7 +329,7 @@ background-color: rgba(0, 0, 0, 0.3);
 }
 .navbar-collapse .nav-link {
   font-family: var(--headingFont);
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #fff;
 }
 .navbar-collapse .nav-link:hover,
@@ -341,7 +341,7 @@ background-color: rgba(0, 0, 0, 0.3);
 }
 @media screen and (min-width: 768px) {
   .nav-item:not(:last-child) {
-    padding: 0.5em 8em;
+    padding: 0.1em 8em;
   }
 }
 .navbar-collapse.show {
