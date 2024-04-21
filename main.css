@@ -340,6 +340,9 @@ background-color: rgba(0, 0, 0, 0.3);
   padding: 0.1em 4em;
   margin:0px;
 }
+.nav-link {
+    padding: 0px var(--bs-nav-link-padding-x);
+}
 @media screen and (min-width: 768px) {
   .nav-item:not(:last-child) {
     padding: 0.1em 8em;
