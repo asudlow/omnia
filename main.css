@@ -531,6 +531,22 @@ background-color: rgba(0, 0, 0, 0.3);
 }
 }
 
+.answerPanel {
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%), url(images/bulb-cogs-target-mob.jpg); 
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:50% 50%; 
+    display:flex; 
+    align-items: center;
+}
+
+@media screen and (min-width: 600px) {
+    .answerPanel {
+        background-image:linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(images/bulb-cogs-target.jpg);
+        background-position:50% 20%;
+}
+}
+
 
 
 /* end panel images */
