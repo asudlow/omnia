@@ -447,7 +447,7 @@ background-color: rgba(0, 0, 0, 0.3);
 
 @media screen and (min-width: 600px) {
     .bidBanner {
-        background-image:linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%), url(images/climb-to-the-top.jpg);
+        background-image:linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%), url(images/flag-on-blocks.jpg);
         background-position:50% 60%;
 }
 }
