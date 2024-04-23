@@ -435,13 +435,13 @@ background-color: rgba(0, 0, 0, 0.3);
 
 @media screen and (min-width: 600px) {
     .awardBanner {
-        background-image:linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%), url(images/award-trophy.jpg);
+        background-image:linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.6) 100%), url(images/award-trophy.jpg);
         background-position:50% 75%;
 }
 }
 
 .bidBanner {
-    background-image:linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%), url(images/flag-at-the-top-mob.jpg);
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.5) 100%), url(images/flag-at-the-top-mob.jpg);
     background-position:50% 50%;
 }
 
@@ -453,14 +453,14 @@ background-color: rgba(0, 0, 0, 0.3);
 }
 
 .capabilityBanner {
-    background-image:linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(images/bulb-cogs-target-mob.jpg);
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.4) 100%), url(images/bulb-cogs-target-mob.jpg);
     background-position:50% 50%;
 }
 
 @media screen and (min-width: 600px) {
     .capabilityBanner {
         background-image:linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%), url(images/bulb-cogs-target.jpg);
-        background-position:50% 50%;
+        background-position:50% 30%;
 }
 }
 
@@ -489,7 +489,7 @@ background-color: rgba(0, 0, 0, 0.3);
 }
 
 .taxBanner {
-    background-image:linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%), url(images/tax-relief-mob.jpg);
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%), url(images/tax-relief-mob.jpg);
     background-position:50% 50%;
 }
 
@@ -548,7 +548,7 @@ background-color: rgba(0, 0, 0, 0.3);
 }
 
 .awardPanel {
-    background-image:linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(images/advantage-mob.jpg); 
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.6) 100%), url(images/advantage-mob.jpg); 
     background-size:cover;
     background-repeat:no-repeat;
     background-position:50% 50%; 
@@ -558,7 +558,7 @@ background-color: rgba(0, 0, 0, 0.3);
 
 @media screen and (min-width: 600px) {
     .awardPanel {
-        background-image:linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(images/advantage.jpg);
+        background-image:linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(images/advantage.jpg);
         background-position:50% 50%;
 }
 }
@@ -580,7 +580,7 @@ background-color: rgba(0, 0, 0, 0.3);
 }
 
 .capabilityPanel {
-    background-image:linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%), url(images/growth-mob.jpg); 
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.5) 100%), url(images/growth-mob.jpg); 
     background-size:cover;
     background-repeat:no-repeat;
     background-position:50% 50%; 
@@ -591,12 +591,12 @@ background-color: rgba(0, 0, 0, 0.3);
 @media screen and (min-width: 600px) {
     .capabilityPanel {
         background-image:linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url(images/growth-blocks.jpg);
-        background-position:50% 50%;
+        background-position:50% 60%;
 }
 }
 
 .isoPanel {
-    background-image:linear-gradient(90deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 100%), url(images/flag-at-the-top-mob.jpg); 
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.4) 100%), url(images/flag-at-the-top-mob.jpg); 
     background-size:cover;
     background-repeat:no-repeat;
     background-position:80% 50%; 
@@ -607,7 +607,7 @@ background-color: rgba(0, 0, 0, 0.3);
 @media screen and (min-width: 600px) {
     .isoPanel {
         background-image:linear-gradient(to right, rgba(0,0,0,0.3), rgba(0,0,0,0.0)), url(images/flag-on-blocks.jpg);
-        background-position:50% 50%;
+        background-position:50% 60%;
 }
 }
 
@@ -628,7 +628,7 @@ background-color: rgba(0, 0, 0, 0.3);
 }
 
 .taxPanel {
-    background-image:linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(images/review-mob.jpg); 
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.5) 100%), url(images/review-mob.jpg); 
     background-size:cover;
     background-repeat:no-repeat;
     background-position:50% 50%; 
@@ -644,7 +644,7 @@ background-color: rgba(0, 0, 0, 0.3);
 }
 
 .uspPanel {
-    background-image:linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(images/bulb-cogs-target-mob.jpg); 
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.3) 100%), url(images/bulb-cogs-target-mob.jpg); 
     background-size:cover;
     background-repeat:no-repeat;
     background-position:50% 50%; 
