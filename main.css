@@ -428,6 +428,18 @@ background-color: rgba(0, 0, 0, 0.3);
 }
 }
 
+.awardBanner {
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%), url(images/award-trophy-mob.jpg);
+    background-position:50% 50%;
+}
+
+@media screen and (min-width: 600px) {
+    .awardBanner {
+        background-image:linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%), url(images/award-trophy.jpg);
+        background-position:50% 75%;
+}
+}
+
 
 
 /* end header images */
