@@ -501,7 +501,7 @@ background-color: rgba(0, 0, 0, 0.3);
 }
 
 .uspBanner {
-    background-image:linear-gradient(90deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 100%), url(images/usp-mob.jpg);
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.2) 100%), url(images/usp-dev-mob.jpg);
     background-position:50% 50%;
 }
 
