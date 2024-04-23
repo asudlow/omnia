@@ -453,7 +453,7 @@ background-color: rgba(0, 0, 0, 0.3);
 }
 
 .capabilityBanner {
-    background-image:linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%), url(images/bulb-cogs-target-mob.jpg);
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(images/bulb-cogs-target-mob.jpg);
     background-position:50% 50%;
 }
 
