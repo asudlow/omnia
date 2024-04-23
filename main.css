@@ -373,21 +373,33 @@ background-color: rgba(0, 0, 0, 0.3);
     .xsNone {
         display:none;
     }
-
     .headerTitle h2 {
     font-size: 1.2rem;
-}
+    }
     .headerTitle h3 {
     font-size: 1rem;
-}
+    }
     .textBox {
     padding:25px;
-}
+    }
     .headerBanner {
     background-position:90% 50%; 
-}
+    }
     .offsetImg img {
     margin-left:0px;
-} 
-    
+    }     
 }
+
+/* header images */
+
+.homeBanner {
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%), url(images/construction-worker-computer-mob.jpg);
+}
+
+@media screen and (min-width: 600px) {
+    .homeBanner {
+        background-image:linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%), url(images/construction-worker-computer.jpg);
+}
+}
+
+/* end header images */
