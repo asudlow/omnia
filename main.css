@@ -107,6 +107,11 @@ b, strong {
     font-style:italic;
 }
 
+.downArrow {
+    width:40px;
+    margin-top:30px;
+}
+
 .introPanel {
     text-align:center;
     display:flex;
