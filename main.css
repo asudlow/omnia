@@ -354,6 +354,12 @@ background-color: rgba(0, 0, 0, 0.3);
         margin: 0px;
     }
 }
+
+@media screen and (max-width: 420px) {
+    .navbar-collapse .nav-link {
+          font-size: 1.2em;
+}   
+}
 /* end navbar */
 
 /* media queries */
