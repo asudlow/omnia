@@ -440,6 +440,17 @@ background-color: rgba(0, 0, 0, 0.3);
 }
 }
 
+.bidBanner {
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%), url(images/flag-at-the-top-mob.jpg);
+    background-position:50% 50%;
+}
+
+@media screen and (min-width: 600px) {
+    .bidBanner {
+        background-image:linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%), url(images/climb-to-the-top.jpg);
+        background-position:50% 60%;
+}
+}
 
 
 /* end header images */
