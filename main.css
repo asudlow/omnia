@@ -336,7 +336,7 @@ background-color: rgba(0, 0, 0, 0.3);
 .navbar-collapse .nav-link.active {
   color: var(--orange);
 }
-.nav-item:not(:last-child) {
+.nav-item {
   padding: 0.1em 4em;
   margin:0px;
 }
