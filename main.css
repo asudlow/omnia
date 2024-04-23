@@ -547,6 +547,21 @@ background-color: rgba(0, 0, 0, 0.3);
 }
 }
 
+.awardPanel {
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(images/advantage-mob.jpg); 
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:50% 50%; 
+    display:flex; 
+    align-items: center;
+}
+
+@media screen and (min-width: 600px) {
+    .awardPanel {
+        background-image:linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(images/advantage.jpg);
+        background-position:50% 50%;
+}
+}
 
 
 /* end panel images */
