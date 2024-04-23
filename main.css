@@ -476,5 +476,17 @@ background-color: rgba(0, 0, 0, 0.3);
 }
 }
 
+.mockBanner {
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%), url(images/five-star-mob.jpg);
+    background-position:50% 50%;
+}
+
+@media screen and (min-width: 600px) {
+    .mockBanner {
+        background-image:linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%), url(images/five-stars.jpg);
+        background-position:50% 50%;
+}
+}
+
 
 /* end header images */
