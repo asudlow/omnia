@@ -182,9 +182,12 @@ b, strong {
     background-color:#f2f2f2;
 }
 
-.footerPanel h2 {
-    font-size:2.5rem;
-    padding-bottom:20px;
+.footerPanel h3 {
+    padding-bottom:0px;
+}
+
+.footerPanel p {
+    color:#000;
 }
 
 .footerPanel a {
