@@ -516,7 +516,7 @@ background-color: rgba(0, 0, 0, 0.3);
 /* panel images */
 
 .aboutPanel {
-    background-image:linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%), url(images/award-trophy-mob.jpg); 
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.5) 100%), url(images/award-trophy-mob.jpg); 
     background-size:cover;
     background-repeat:no-repeat;
     background-position:50% 50%; 
