@@ -416,4 +416,18 @@ background-color: rgba(0, 0, 0, 0.3);
 }
 }
 
+.answerBanner {
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%), url(images/plan-mob.jpg);
+    background-position:50% 50%;
+}
+
+@media screen and (min-width: 600px) {
+    .answerBanner {
+        background-image:linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%), url(images/plan.jpg);
+        background-position:50% 75%;
+}
+}
+
+
+
 /* end header images */
