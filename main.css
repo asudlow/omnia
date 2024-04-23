@@ -305,8 +305,8 @@ background-color: rgba(0, 0, 0, 0.3);
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
-  text-align: center;
+  justify-content: flex-start;
+  text-align: left;
   background-color: #3e4149;
 }
 .navbar-toggler,
@@ -343,14 +343,16 @@ background-color: rgba(0, 0, 0, 0.3);
 .nav-link {
     padding: 0px;
 }
-@media screen and (min-width: 768px) {
-  .nav-item:not(:last-child) {
-    padding: 0.1em 8em;
-    margin:0px;
-  }
-}
+
 .navbar-collapse.show {
   transition: all 0.5s;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-item {
+        padding: 0.1em 8em;
+        margin: 0px;
+    }
 }
 /* end navbar */
 
