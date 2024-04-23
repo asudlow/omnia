@@ -394,11 +394,25 @@ background-color: rgba(0, 0, 0, 0.3);
 
 .homeBanner {
     background-image:linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%), url(images/construction-worker-computer-mob.jpg);
+    background-position:50% 50%;
 }
 
 @media screen and (min-width: 600px) {
     .homeBanner {
         background-image:linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%), url(images/construction-worker-computer.jpg);
+        background-position:50% 50%;
+}
+}
+
+.aboutBanner {
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%), url(images/shaking-hands-mob.jpg);
+    background-position:50% 50%;
+}
+
+@media screen and (min-width: 600px) {
+    .aboutBanner {
+        background-image:linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%), url(images/shaking-hands.jpg);
+        background-position:50% 50%;
 }
 }
 
